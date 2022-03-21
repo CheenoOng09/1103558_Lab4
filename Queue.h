@@ -22,5 +22,4 @@ private:
     int Rear; // index to the rear most element in a queue
     int Count; // the number of elements in a queue
 };
-
 #endif // QUEUE_H
