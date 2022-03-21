@@ -1,12 +1,12 @@
 #include <iostream>
-#include "Queue.h"
-#include <list>
+#include "Queue.cpp"
 
 using namespace std;
 
 int main()
 {
     int qSize = 15;
-    
-    Queue myQueue;
+
+    Queue *myQueue = new Queue(qSize);
+    myQueue->printQueue();
 }
